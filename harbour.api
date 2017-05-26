@@ -1,0 +1,3267 @@
+<AutoComplete>
+  <Environment ignoreCase="yes" startFunc="(" stopFunc=")" paramSeparator="," terminal="" />
+  <KeyWord name="Ft_d2e" func="yes">
+    <Overload retVal=".">
+      <Param name="nDec" />
+      <Param name="nPrecision " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_e2d" func="yes">
+    <Overload retVal=".">
+      <Param name="cNumE " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="AAdd" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray" />
+      <Param name="xValue " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Abs" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Achoice" func="yes">
+    <Overload retVal=".">
+      <Param name="nTop" />
+      <Param name="nLeft" />
+      <Param name="nBottom" />
+      <Param name="nRight" />
+      <Param name="acMenuItems" />
+      <Param name="alSelableItems | lSelableItems" />
+      <Param name="cUserFunction | bUserBlock" />
+      <Param name="nInitialItem" />
+      <Param name="nWindowRow " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Aclone" func="yes">
+    <Overload retVal=".">
+      <Param name="aSource " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Acopy" func="yes">
+    <Overload retVal=".">
+      <Param name="aSource" />
+      <Param name="aTarget" />
+      <Param name="nStart" />
+      <Param name="nCount" />
+      <Param name="nTargetPos " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Acos" func="yes">
+    <Overload retVal=".">
+      <Param name="nCosine " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Acos" func="yes">
+    <Overload retVal=".">
+      <Param name="nTangent " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Addascii" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="nValue" />
+      <Param name="nPosition" />
+      <Param name="lCarryOver " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Addmonth" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate" />
+      <Param name="nMonths " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Adel" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray" />
+      <Param name="nPos " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Adir" func="yes">
+    <Overload retVal=".">
+      <Param name="cFileMask" />
+      <Param name="aName" />
+      <Param name="aSize" />
+      <Param name="aDate" />
+      <Param name="aTime" />
+      <Param name="aAttr " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Aeval" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray" />
+      <Param name="bBlock" />
+      <Param name="nStart" />
+      <Param name="nCount " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Afields" func="yes">
+    <Overload retVal=".">
+      <Param name="aNames" />
+      <Param name="aTypes" />
+      <Param name="aLen" />
+      <Param name="aDecs " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Afill" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray" />
+      <Param name="xValue" />
+      <Param name="nStart" />
+      <Param name="nCount " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Afteratnum" func="yes">
+    <Overload retVal=".">
+      <Param name="cStringToMatch" />
+      <Param name="cString" />
+      <Param name="nCounter" />
+      <Param name="nIgnore " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ains" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray" />
+      <Param name="nPos " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Alert" func="yes">
+    <Overload retVal=".">
+      <Param name="xMessage" />
+      <Param name="aOptions" />
+      <Param name="cColorNorm" />
+      <Param name="nDelay " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Alias" func="yes">
+    <Overload retVal=".">
+      <Param name="nWorkArea " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Alltrim" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Append [from <" func="yes">
+    <Overload retVal=".">
+      <Param name="f" />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Asc" func="yes">
+    <Overload retVal=".">
+      <Param name="cCharacter " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ascan" func="yes">
+    <Overload retVal=".">
+      <Param name="aTarget" />
+      <Param name="xSearch" />
+      <Param name="nStart" />
+      <Param name="nCount " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Asciisum" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ascpos" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nPosition " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Asin" func="yes">
+    <Overload retVal=".">
+      <Param name="nSine " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Asize" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray" />
+      <Param name="nLen " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Asort" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray" />
+      <Param name="nStart" />
+      <Param name="nCount" />
+      <Param name="bSort " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="At" func="yes">
+    <Overload retVal=".">
+      <Param name="cSearch" />
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Atadjust" func="yes">
+    <Overload retVal=".">
+      <Param name="cStringToMatch" />
+      <Param name="cString" />
+      <Param name="nAdjustPosition" />
+      <Param name="nCounter" />
+      <Param name="nIgnore" />
+      <Param name="nFillChar|cFillChar " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Atail" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Atn2" func="yes">
+    <Overload retVal=".">
+      <Param name="nSine" />
+      <Param name="nCosine " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Atnum " func="yes">
+    <Overload retVal=".">
+      <Param name="cStringToMatch" />
+      <Param name="cString" />
+      <Param name="nCounter" />
+      <Param name="nIgnore " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Atrepl" func="yes">
+    <Overload retVal=".">
+      <Param name="cStringToMatch" />
+      <Param name="cString" />
+      <Param name="cReplacement" />
+      <Param name="nCounter" />
+      <Param name="lMode" />
+      <Param name="nIgnore " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Attoken" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cTokenizer" />
+      <Param name="nTokenCount" />
+      <Param name="nSkipWidth " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Beforatnum" func="yes">
+    <Overload retVal=".">
+      <Param name="cStringToMatch" />
+      <Param name="cString" />
+      <Param name="nCounter" />
+      <Param name="nIgnore " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Bin2i" func="yes">
+    <Overload retVal=".">
+      <Param name="cBuffer " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Bin2l" func="yes">
+    <Overload retVal=".">
+      <Param name="cBuffer " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Bin2u" func="yes">
+    <Overload retVal=".">
+      <Param name="cBuffer " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Bin2w" func="yes">
+    <Overload retVal=".">
+      <Param name="cBuffer " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Bintodec" func="yes">
+    <Overload retVal=".">
+      <Param name="cN " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Bittoc" func="yes">
+    <Overload retVal=".">
+      <Param name="nInteger" />
+      <Param name="cBitPattern" />
+      <Param name="lMode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Bom" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Boq" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Boy" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Break" func="yes">
+    <Overload retVal=".">
+      <Param name="xExp " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Browse" func="yes">
+    <Overload retVal=".">
+      <Param name="nTop" />
+      <Param name="nLeft" />
+      <Param name="nBottom" />
+      <Param name="nRight " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Cd" func="yes">
+    <Overload retVal=".">
+      <Param name="cDir " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Cdow" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ceiling" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Celsius" func="yes">
+    <Overload retVal=".">
+      <Param name="nDegreeFahrenheit " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charadd" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString1" />
+      <Param name="cString2 " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charand" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString1" />
+      <Param name="cString2 " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Chareven" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charhist" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charlist" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charmirr" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="lDontMirrorSpaces " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charmix" func="yes">
+    <Overload retVal=".">
+      <Param name="cString1" />
+      <Param name="cString2 " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charnolist" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charnot" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charodd" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charone" func="yes">
+    <Overload retVal=".">
+      <Param name="cCharactersToReduce" />
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charonly" func="yes">
+    <Overload retVal=".">
+      <Param name="cThisCharactersOnly" />
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charor" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString1" />
+      <Param name="cString2 " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charrela" func="yes">
+    <Overload retVal=".">
+      <Param name="cStringToMatch1" />
+      <Param name="cString1" />
+      <Param name="cStringToMatch2" />
+      <Param name="cString2 " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charrelrep" func="yes">
+    <Overload retVal=".">
+      <Param name="cStringToMatch1" />
+      <Param name="cString1" />
+      <Param name="cStringToMatch2" />
+      <Param name="@cString2" />
+      <Param name="cReplacement " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charrem" func="yes">
+    <Overload retVal=".">
+      <Param name="cDeleteThisCharacters" />
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charrepl" func="yes">
+    <Overload retVal=".">
+      <Param name="cSearchString" />
+      <Param name="@cString" />
+      <Param name="cReplaceString" />
+      <Param name="lMode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charrll" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="nBitsToRLL " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charrlr" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="nBitsToRLR " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charshl" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="nBitsToSHL " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charshr" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="nBitsToSHR " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charslist" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charsort" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="nElementLength" />
+      <Param name="nCompareLength" />
+      <Param name="nIgnoreCharacters" />
+      <Param name="nElemenOffset" />
+      <Param name="nSortLength" />
+      <Param name="lDescending " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charsub" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString1" />
+      <Param name="cString2" />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charswap" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Charwin" func="yes">
+    <Overload retVal=".">
+      <Param name="nTop" />
+      <Param name="nLeft" />
+      <Param name="nBottom" />
+      <Param name="nRight" />
+      <Param name="cNewChar|nNewChar" />
+      <Param name="cOldChar|nOldChar " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Chr" func="yes">
+    <Overload retVal=".">
+      <Param name="nAsciiNum " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Cmonth" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Colorrepl" func="yes">
+    <Overload retVal=".">
+      <Param name="cNewAttr|nNewAttr" />
+      <Param name="cOldAttr|nOldAttr " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Cosh" func="yes">
+    <Overload retVal=".">
+      <Param name="nArea " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Cot" func="yes">
+    <Overload retVal=".">
+      <Param name="nRadiant " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Countleft" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cSearch|nSearch " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Countright" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cSearch|nSearch " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Csetargerr" func="yes">
+    <Overload retVal=".">
+      <Param name="nNewMode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Csetatmupa" func="yes">
+    <Overload retVal=".">
+      <Param name="lNewSwitch " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Csetref" func="yes">
+    <Overload retVal=".">
+      <Param name="lNewSwitch " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ctobit" func="yes">
+    <Overload retVal=".">
+      <Param name="cBitString" />
+      <Param name="cBitPattern " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ctodow" func="yes">
+    <Overload retVal=".">
+      <Param name="cName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ctof" func="yes">
+    <Overload retVal=".">
+      <Param name="cFloatingPointNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Cton" func="yes">
+    <Overload retVal=".">
+      <Param name="xNumber" />
+      <Param name="nBase" />
+      <Param name="lMode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Curdir" func="yes">
+    <Overload retVal=".">
+      <Param name="cDrive " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Day" func="yes">
+    <Overload retVal=".">
+      <Param name="cDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Days" func="yes">
+    <Overload retVal=".">
+      <Param name="nSecs " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Daysinmonth" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Daystomonth" func="yes">
+    <Overload retVal=".">
+      <Param name="nMonth" />
+      <Param name="lLeapYear " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbappend" func="yes">
+    <Overload retVal=".">
+      <Param name="lLock " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbcreate" func="yes">
+    <Overload retVal=".">
+      <Param name="cDatabase" />
+      <Param name="aStruct" />
+      <Param name="cDriver" />
+      <Param name="lOpen" />
+      <Param name="cAlias " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbedit" func="yes">
+    <Overload retVal=".">
+      <Param name="nTop" />
+      <Param name="nLeft" />
+      <Param name="nBottom" />
+      <Param name="nRight" />
+      <Param name="acColumns" />
+      <Param name="xUserFunc" />
+      <Param name="xColumnSayPictures" />
+      <Param name="xColumnHeaders" />
+      <Param name="xHeadingSeparators" />
+      <Param name="xColumnSeparators" />
+      <Param name="xFootingSeparators" />
+      <Param name="xColumnFootings " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbeval" func="yes">
+    <Overload retVal=".">
+      <Param name="bBlock" />
+      <Param name="bFor" />
+      <Param name="bWhile" />
+      <Param name="nNext" />
+      <Param name="nRecord" />
+      <Param name="lRest " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbgoto" func="yes">
+    <Overload retVal=".">
+      <Param name="xRecordNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbrlock" func="yes">
+    <Overload retVal=".">
+      <Param name="xIdentity " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbrunlock" func="yes">
+    <Overload retVal=".">
+      <Param name="xIdentity " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbseek" func="yes">
+    <Overload retVal=".">
+      <Param name="expKey" />
+      <Param name="lSoftSeek" />
+      <Param name="lFindLast " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbselectarea" func="yes">
+    <Overload retVal=".">
+      <Param name="xArea " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbsetdriver" func="yes">
+    <Overload retVal=".">
+      <Param name="cDriver " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbsetfilter" func="yes">
+    <Overload retVal=".">
+      <Param name="bCondition" />
+      <Param name="cCondition " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbskip" func="yes">
+    <Overload retVal=".">
+      <Param name="nRecords " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbskipper" func="yes">
+    <Overload retVal=".">
+      <Param name="nRecs " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dbusearea" func="yes">
+    <Overload retVal=".">
+      <Param name="lNewArea" />
+      <Param name="cDriver" />
+      <Param name="cName" />
+      <Param name="xcAlias" />
+      <Param name="lShared" />
+      <Param name="lReadonly " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dectobin" func="yes">
+    <Overload retVal=".">
+      <Param name="cN " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dectohexa" func="yes">
+    <Overload retVal=".">
+      <Param name="cN " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dectooctal" func="yes">
+    <Overload retVal=".">
+      <Param name="cN " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Descend" func="yes">
+    <Overload retVal=".">
+      <Param name="xExp " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Devoutpict" func="yes">
+    <Overload retVal=".">
+      <Param name="xExp" />
+      <Param name="cPicture" />
+      <Param name="cColorString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dirchange" func="yes">
+    <Overload retVal=".">
+      <Param name="cDirectory " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dirremove" func="yes">
+    <Overload retVal=".">
+      <Param name="cDirectory " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Diskspace" func="yes">
+    <Overload retVal=".">
+      <Param name="nDrive " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dmy" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate" />
+      <Param name="lMode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Do" func="yes">
+    <Overload retVal=".">
+      <Param name="xFuncProc " />
+      <Param name="xArguments... " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dow" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Doy" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dtoc" func="yes">
+    <Overload retVal=".">
+      <Param name="dDateString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dtor" func="yes">
+    <Overload retVal=".">
+      <Param name="nDegree " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Dtos" func="yes">
+    <Overload retVal=".">
+      <Param name="dDateString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Elaptime" func="yes">
+    <Overload retVal=".">
+      <Param name="cStartTime" />
+      <Param name="cEndTime " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Empty" func="yes">
+    <Overload retVal=".">
+      <Param name="xExp " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Eom" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Eoq" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Eoy" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Error handler <methodname>" func="yes">
+    <Overload retVal=".">
+      <Param name="params" />
+      <Param name="... " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Eval" func="yes">
+    <Overload retVal=".">
+      <Param name="bBlock " />
+      <Param name="xVal " />
+      <Param name="...  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Exp" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Exponent" func="yes">
+    <Overload retVal=".">
+      <Param name="nFloatingPointNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fact" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fahrenheit" func="yes">
+    <Overload retVal=".">
+      <Param name="nDegreeCelsius " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fclose" func="yes">
+    <Overload retVal=".">
+      <Param name="nHandle " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fcreate" func="yes">
+    <Overload retVal=".">
+      <Param name="cFile" />
+      <Param name="nAttribute " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ferase" func="yes">
+    <Overload retVal=".">
+      <Param name="cFile " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fieldblock" func="yes">
+    <Overload retVal=".">
+      <Param name="cFieldName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fieldget" func="yes">
+    <Overload retVal=".">
+      <Param name="nField " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fieldname" func="yes">
+    <Overload retVal=".">
+      <Param name=")/Field( nPosition " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fieldpos" func="yes">
+    <Overload retVal=".">
+      <Param name="cFieldName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fieldput" func="yes">
+    <Overload retVal=".">
+      <Param name="nField" />
+      <Param name="expAssign " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fieldwblock" func="yes">
+    <Overload retVal=".">
+      <Param name="cFieldName" />
+      <Param name="nWorkArea " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="File" func="yes">
+    <Overload retVal=".">
+      <Param name="cFileSpec " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Floor" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fopen" func="yes">
+    <Overload retVal=".">
+      <Param name="cFile" />
+      <Param name="nMode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fread" func="yes">
+    <Overload retVal=".">
+      <Param name="nHandle" />
+      <Param name="@cBuffer" />
+      <Param name="nBytes " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Freadstr" func="yes">
+    <Overload retVal=".">
+      <Param name="nHandle" />
+      <Param name="nBytes " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Frename" func="yes">
+    <Overload retVal=".">
+      <Param name="cOldFile" />
+      <Param name="cNewFile " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fseek" func="yes">
+    <Overload retVal=".">
+      <Param name="nHandle" />
+      <Param name="nOffset" />
+      <Param name="nOrigin " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ftoc" func="yes">
+    <Overload retVal=".">
+      <Param name="nFloatingPointNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_aavg" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray " />
+      <Param name="nStartIndex " />
+      <Param name="nEndIndex   " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_acctadj" func="yes">
+    <Overload retVal=".">
+      <Param name=" dGivenDate " />
+      <Param name=" lIsEnd  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_acctmonth" func="yes">
+    <Overload retVal=".">
+      <Param name=" dGivenDate " />
+      <Param name=" nMonthNum  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_acctqtr" func="yes">
+    <Overload retVal=".">
+      <Param name=" dGivenDate " />
+      <Param name=" nQtrNum  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_acctweek" func="yes">
+    <Overload retVal=".">
+      <Param name=" dGivenDate " />
+      <Param name=" nWeekNum  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_acctyear" func="yes">
+    <Overload retVal=".">
+      <Param name=" dGivenDate  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_addwkdy" func="yes">
+    <Overload retVal=".">
+      <Param name="dStart" />
+      <Param name="nWorkDays " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_adessort" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray " />
+      <Param name="nStartIndex " />
+      <Param name="nEndIndex   " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_aemaxlen" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray " />
+      <Param name="nDimension " />
+      <Param name="nStart " />
+      <Param name="nCount    " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_aeminlen" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray " />
+      <Param name="nDimension " />
+      <Param name="nStart " />
+      <Param name="nCount    " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_amedian" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray " />
+      <Param name="nStart " />
+      <Param name="nEnd   " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_anomatches" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray" />
+      <Param name="bCompareBlock ; " />
+      <Param name="nStartIndex " />
+      <Param name="nEndIndex   " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_aredit" func="yes">
+    <Overload retVal=".">
+      <Param name="nTop" />
+      <Param name="nLeft" />
+      <Param name="nBottom" />
+      <Param name="nRight" />
+      <Param name="Array Name" />
+      <Param name="aHeadings" />
+      <Param name="aBlocks " />
+      <Param name="bGetFunc  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_asum" func="yes">
+    <Overload retVal=".">
+      <Param name="aArray " />
+      <Param name="nStartIndex " />
+      <Param name="nEndIndex   " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_at2" func="yes">
+    <Overload retVal=".">
+      <Param name="cSearch" />
+      <Param name="cTarget " />
+      <Param name="nOccurs " />
+      <Param name="lCaseSens   " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_bitclr" func="yes">
+    <Overload retVal=".">
+      <Param name="cByte" />
+      <Param name="nBitPos " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_bitset" func="yes">
+    <Overload retVal=".">
+      <Param name="cByte" />
+      <Param name="nBitPos " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_blink" func="yes">
+    <Overload retVal=".">
+      <Param name="cMsg" />
+      <Param name=" nRow " />
+      <Param name=" nCol  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ft_year" func="yes">
+    <Overload retVal=".">
+      <Param name=" dGivenDate  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fv" func="yes">
+    <Overload retVal=".">
+      <Param name="nDeposit" />
+      <Param name="nInterest" />
+      <Param name="nPeriods " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Fwrite" func="yes">
+    <Overload retVal=".">
+      <Param name="nHandle" />
+      <Param name="cBuffer" />
+      <Param name="nBytes " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Gete" func="yes">
+    <Overload retVal=".">
+      <Param name="cEnviroment " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Getenv" func="yes">
+    <Overload retVal=".">
+      <Param name="cEnviroment " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hardcr" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_at" func="yes">
+    <Overload retVal=".">
+      <Param name="cSearch" />
+      <Param name="cString" />
+      <Param name="nStart" />
+      <Param name="nEnd " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_bool hb_md5file" func="yes">
+    <Overload retVal=".">
+      <Param name="const char * pszFileName" />
+      <Param name="char * digest " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_colorindex" func="yes">
+    <Overload retVal=".">
+      <Param name="cColorSpec" />
+      <Param name="nIndex " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_comfindport" func="yes">
+    <Overload retVal=".">
+      <Param name="cDeviceName " />
+      <Param name="lCreate = .F.  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_feof" func="yes">
+    <Overload retVal=".">
+      <Param name="nHandle " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_flock" func="yes">
+    <Overload retVal=".">
+      <Param name="nHandle" />
+      <Param name="nOffset" />
+      <Param name="nBytes " />
+      <Param name="nType  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_funlock" func="yes">
+    <Overload retVal=".">
+      <Param name="nHandle" />
+      <Param name="nOffset" />
+      <Param name="nBytes " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_getenv" func="yes">
+    <Overload retVal=".">
+      <Param name="cEnviroment" />
+      <Param name="cDefaultValue " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_getzipcomment" func="yes">
+    <Overload retVal=".">
+      <Param name="szFile " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hallocate" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="nItems " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hash" func="yes">
+    <Overload retVal=".">
+      <Param name=" Key1" />
+      <Param name="Value1 " />
+      <Param name=" KeyN" />
+      <Param name="ValueN " />
+      <Param name="... " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hautoadd" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="lFlag " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hbinary" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="lFlag " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hcasematch" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="lFlag " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hclone" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hcopy" func="yes">
+    <Overload retVal=".">
+      <Param name="hsDestination" />
+      <Param name="hsSource" />
+      <Param name="nStart" />
+      <Param name="nCount " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hdefault" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="DefaultValue " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hdel" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="Key " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hdelat" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="nPosition " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_heval" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="bBlock" />
+      <Param name="nStart" />
+      <Param name="nCount " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hfill" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="Value " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hget" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="Key " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hgetdef" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="Key" />
+      <Param name="DefaultValue " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hgetref" func="yes">
+    <Overload retVal=".">
+      <Param name="hHash" />
+      <Param name="xKey" />
+      <Param name="@xValue  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hkeyat" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="nPosition " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hkeys" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hmerge" func="yes">
+    <Overload retVal=".">
+      <Param name="hsDestination" />
+      <Param name="hsSource" />
+      <Param name="bBlock|nPosition " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hpairat" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="nPosition " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hpos" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="Key " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hscan" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="Value" />
+      <Param name="nStart" />
+      <Param name="nCount" />
+      <Param name="lExact " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hset" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="Key" />
+      <Param name="Value " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hsort" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hvalueat" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable" />
+      <Param name="nPosition" />
+      <Param name="NewValue " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_hvalues" func="yes">
+    <Overload retVal=".">
+      <Param name="hsTable " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_idleadd" func="yes">
+    <Overload retVal=".">
+      <Param name="bAction " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_idledel" func="yes">
+    <Overload retVal=".">
+      <Param name="nHandle " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_idlesleep" func="yes">
+    <Overload retVal=".">
+      <Param name="nSeconds " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetaccept" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetaddress" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetclearerror" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetclearperiodcallback" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetcleartimelimit" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetcleartimeout" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetclose" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetconnect" func="yes">
+    <Overload retVal=".">
+      <Param name="cAddress" />
+      <Param name="nPort ) - SOCKEThb_inetConnect( cAddress" />
+      <Param name="nPort" />
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetconnectip" func="yes">
+    <Overload retVal=".">
+      <Param name="cAddress" />
+      <Param name="nPort ) - SOCKEThb_inetConnectIP( cAddress" />
+      <Param name="nPort" />
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetcount" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetcreate" func="yes">
+    <Overload retVal=".">
+      <Param name=" nTimeout  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetdataready" func="yes">
+    <Overload retVal=".">
+      <Param name="socket" />
+      <Param name=" nMillisec  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetdgram" func="yes">
+    <Overload retVal=".">
+      <Param name="lBroadcast " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetdgrambind" func="yes">
+    <Overload retVal=".">
+      <Param name="nPort" />
+      <Param name="cAddress " />
+      <Param name="lBroadcast  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetdgramrecv" func="yes">
+    <Overload retVal=".">
+      <Param name="socket" />
+      <Param name="@cBuffer " />
+      <Param name="nSize  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetdgramsend" func="yes">
+    <Overload retVal=".">
+      <Param name="socket" />
+      <Param name="cAddress" />
+      <Param name="nPort" />
+      <Param name="cBuffer " />
+      <Param name="nSize  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_ineterrorcode" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_ineterrordesc" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetfd" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+      <Param name="lNoSocket  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetgetalias" func="yes">
+    <Overload retVal=".">
+      <Param name="cName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetgethosts" func="yes">
+    <Overload retVal=".">
+      <Param name="cName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetgetrcvbufsize" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetgetsndbufsize" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetissocket" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetperiodcallback" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+      <Param name="xCallback  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetport" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetrecv" func="yes">
+    <Overload retVal=".">
+      <Param name="socket" />
+      <Param name="@cResult" />
+      <Param name=" nAmount  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetrecvall" func="yes">
+    <Overload retVal=".">
+      <Param name="socket" />
+      <Param name="@cResult" />
+      <Param name=" nAmount  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetrecvendblock" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+      <Param name="cBlock " />
+      <Param name="@nBytesRead " />
+      <Param name="nMaxLength " />
+      <Param name="nBufSize  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetrecvline" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+      <Param name="@nBytesRead" />
+      <Param name="" />
+      <Param name="nMaxLength " />
+      <Param name="nBufSize  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetsend" func="yes">
+    <Overload retVal=".">
+      <Param name="socket" />
+      <Param name="cBuffer " />
+      <Param name="nLength  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetsendall" func="yes">
+    <Overload retVal=".">
+      <Param name="socket" />
+      <Param name="cBuffer " />
+      <Param name="nLength  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetserver" func="yes">
+    <Overload retVal=".">
+      <Param name="port " />
+      <Param name="cBindAddr " />
+      <Param name="nListenLimit  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetsetrcvbufsize" func="yes">
+    <Overload retVal=".">
+      <Param name="socket" />
+      <Param name="nSize " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetsetsndbufsize" func="yes">
+    <Overload retVal=".">
+      <Param name="socket" />
+      <Param name="nSize " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inetstatus" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inettimelimit" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+      <Param name="nTimeLimit " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_inettimeout" func="yes">
+    <Overload retVal=".">
+      <Param name="socket " />
+      <Param name="nTimeout  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_keyput" func="yes">
+    <Overload retVal=".">
+      <Param name="nInkeyCode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_langerrmsg" func="yes">
+    <Overload retVal=".">
+      <Param name="nErrorCode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_langmessage" func="yes">
+    <Overload retVal=".">
+      <Param name="nMsg" />
+      <Param name="cLangID " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_langname" func="yes">
+    <Overload retVal=".">
+      <Param name="cLangID " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_langselect" func="yes">
+    <Overload retVal=".">
+      <Param name="cNewLang" />
+      <Param name="cCodepage " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_matherblock" func="yes">
+    <Overload retVal=".">
+      <Param name="bNewBlock " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_mathermode" func="yes">
+    <Overload retVal=".">
+      <Param name="nNewMode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_memoread" func="yes">
+    <Overload retVal=".">
+      <Param name="cFileName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_memowrit" func="yes">
+    <Overload retVal=".">
+      <Param name="cFileName" />
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_numtohex" func="yes">
+    <Overload retVal=".">
+      <Param name="nValue " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_pisbyref" func="yes">
+    <Overload retVal=".">
+      <Param name="nParam " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_pvalue" func="yes">
+    <Overload retVal=".">
+      <Param name="nArg " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_randomint" func="yes">
+    <Overload retVal=".">
+      <Param name="nLow" />
+      <Param name="nHigh " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_randstr" func="yes">
+    <Overload retVal=".">
+      <Param name="nLen " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_rat" func="yes">
+    <Overload retVal=".">
+      <Param name="cSearch" />
+      <Param name="cString" />
+      <Param name="nStart" />
+      <Param name="nEnd " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_setbuffer" func="yes">
+    <Overload retVal=".">
+      <Param name="nWriteBuffer" />
+      <Param name="nExtractBuffer" />
+      <Param name="nReadBuffer " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_setkeycheck" func="yes">
+    <Overload retVal=".">
+      <Param name="nKey " />
+      <Param name="p1 " />
+      <Param name="p2 " />
+      <Param name="p3  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_setkeyget" func="yes">
+    <Overload retVal=".">
+      <Param name="nKey " />
+      <Param name="bConditionByRef  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_setkeysave" func="yes">
+    <Overload retVal=".">
+      <Param name=" OldKeys  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_setmacro" func="yes">
+    <Overload retVal=".">
+      <Param name="nOption" />
+      <Param name="lOnOff " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_setzipcomment" func="yes">
+    <Overload retVal=".">
+      <Param name="cComment " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_strshrink" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nShrinkBy" />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_unzipfile" func="yes">
+    <Overload retVal=".">
+      <Param name="cFile" />
+      <Param name="bBlock" />
+      <Param name="lWithPath" />
+      <Param name="cPassword" />
+      <Param name="cPath" />
+      <Param name="cFile | aFile" />
+      <Param name="pFileProgress " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_valtoexp" func="yes">
+    <Overload retVal=".">
+      <Param name="xExpr " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_valtostr" func="yes">
+    <Overload retVal=".">
+      <Param name="xValue " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_zipdeletefiles" func="yes">
+    <Overload retVal=".">
+      <Param name="cFile" />
+      <Param name="cFiletoDelete | aFiles | nFilePos " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_zipfile" func="yes">
+    <Overload retVal=".">
+      <Param name="cFile" />
+      <Param name="cFileToCompress | aFiles" />
+      <Param name="nLevel" />
+      <Param name="bBlock" />
+      <Param name="lOverWrite" />
+      <Param name="cPassword" />
+      <Param name="lWithPath" />
+      <Param name="lWithDrive" />
+      <Param name="pFileProgress " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_zipfilebypkspan" func="yes">
+    <Overload retVal=".">
+      <Param name="cFile" />
+      <Param name="cFileToCompress | aFiles" />
+      <Param name="nLevel" />
+      <Param name="bBlock" />
+      <Param name="lOverWrite" />
+      <Param name="cPassword" />
+      <Param name="lWithPath" />
+      <Param name="lWithDrive" />
+      <Param name="pFileProgress " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_zipfilebytdspan" func="yes">
+    <Overload retVal=".">
+      <Param name="cFile" />
+      <Param name="cFileToCompress | aFiles" />
+      <Param name="nLevel" />
+      <Param name="bBlock" />
+      <Param name="lOverWrite" />
+      <Param name="cPassword" />
+      <Param name="iSize" />
+      <Param name="lWithPath" />
+      <Param name="lWithDrive" />
+      <Param name="pFileProgress" />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hb_ziptestpk" func="yes">
+    <Overload retVal=".">
+      <Param name="cFile " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Hexatodec" func="yes">
+    <Overload retVal=".">
+      <Param name="cN " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="I2bin" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Index on <key> [tag <" func="yes">
+    <Overload retVal=".">
+      <Param name="tag) TO (bag" />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Indexkey" func="yes">
+    <Overload retVal=".">
+      <Param name="nOrder " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Infinity" func="yes">
+    <Overload retVal=".">
+      <Param name="lPlatformIndependant " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Inkey" func="yes">
+    <Overload retVal=".">
+      <Param name="nTimeout " />
+      <Param name="nEvents " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Int" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Isaffirm" func="yes">
+    <Overload retVal=".">
+      <Param name="cChar " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Isalpha" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Isbin" func="yes">
+    <Overload retVal=".">
+      <Param name="cN " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Isdec" func="yes">
+    <Overload retVal=".">
+      <Param name="cN " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Isdigit" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Isdisk" func="yes">
+    <Overload retVal=".">
+      <Param name="cDrive " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ishexa" func="yes">
+    <Overload retVal=".">
+      <Param name="cN " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Isleap" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Isleapyear" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Islower" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Isnegative" func="yes">
+    <Overload retVal=".">
+      <Param name="cChar " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Isoctal" func="yes">
+    <Overload retVal=".">
+      <Param name="cN " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Isupper" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Justleft" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="cChar|nChar " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Justright" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="cChar|nChar " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ksetcaps" func="yes">
+    <Overload retVal=".">
+      <Param name="lNewSwitch " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Lastdayom" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate|nMonth " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Lastkey" func="yes">
+    <Overload retVal=".">
+      <Param name="nInputMask " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Lastrec" func="yes">
+    <Overload retVal=".">
+      <Param name=") | RecCount(" />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Left" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nLen " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Len" func="yes">
+    <Overload retVal=".">
+      <Param name="cString | aArray " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Log" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Log10" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Lower" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ltrim" func="yes">
+    <Overload retVal=".">
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Makedir" func="yes">
+    <Overload retVal=".">
+      <Param name="cDirectory " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Mantissa" func="yes">
+    <Overload retVal=".">
+      <Param name="nFloatingPointNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Max" func="yes">
+    <Overload retVal=".">
+      <Param name="xValue" />
+      <Param name="xValue1 " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Md" func="yes">
+    <Overload retVal=".">
+      <Param name="cDir " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Mdblclk" func="yes">
+    <Overload retVal=".">
+      <Param name="nMillisecs " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Memoread" func="yes">
+    <Overload retVal=".">
+      <Param name="cFileName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Memotran" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cHard" />
+      <Param name="cSoft " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Memowrit" func="yes">
+    <Overload retVal=".">
+      <Param name="cFileName" />
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Memvarblock" func="yes">
+    <Overload retVal=".">
+      <Param name="cMemvarName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Message <messagename> method <methodname>" func="yes">
+    <Overload retVal=".">
+      <Param name="params" />
+      <Param name="... )MESSAGE MessageName() METHOD MethodName( params" />
+      <Param name="... " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Min" func="yes">
+    <Overload retVal=".">
+      <Param name="xValue" />
+      <Param name="xValue1 " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Mod" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber" />
+      <Param name="nNumber1 " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Month" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Nationmsg" func="yes">
+    <Overload retVal=".">
+      <Param name="nMsg " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Neterr" func="yes">
+    <Overload retVal=".">
+      <Param name="lNewError " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Nextkey" func="yes">
+    <Overload retVal=".">
+      <Param name="nInputMask " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ntoc" func="yes">
+    <Overload retVal=".">
+      <Param name="xNumber" />
+      <Param name="nBase" />
+      <Param name="nLength" />
+      <Param name="cPadChar " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ntocmonth" func="yes">
+    <Overload retVal=".">
+      <Param name="nMonth " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ntocolor" func="yes">
+    <Overload retVal=".">
+      <Param name="nAttr" />
+      <Param name="lColorCode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Numtoken" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cTokenizer" />
+      <Param name="nSkipWidth " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Octaltodec" func="yes">
+    <Overload retVal=".">
+      <Param name="cN " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="On error <methodname>" func="yes">
+    <Overload retVal=".">
+      <Param name="params" />
+      <Param name="... " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ordbagname" func="yes">
+    <Overload retVal=".">
+      <Param name="nOrder | cOrderName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ordconset" func="yes">
+    <Overload retVal=".">
+      <Param name="cForCondition" />
+      <Param name="bForCondition" />
+      <Param name="lAll" />
+      <Param name="bWhileCondition" />
+      <Param name="bEval" />
+      <Param name="nInterval" />
+      <Param name="nStart" />
+      <Param name="nNext" />
+      <Param name="nRecord" />
+      <Param name="lRest" />
+      <Param name="lDescend" />
+      <Param name="lAdditive" />
+      <Param name="lCurrent" />
+      <Param name="lCustom" />
+      <Param name="lNoOptimize" />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ordcreate" func="yes">
+    <Overload retVal=".">
+      <Param name="cOrderBagName" />
+      <Param name="cOrderName" />
+      <Param name="cExpKey" />
+      <Param name="bExpKey" />
+      <Param name="lUnique " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Orddestroy" func="yes">
+    <Overload retVal=".">
+      <Param name="cOrderName " />
+      <Param name="cOrderBagName  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ordfor" func="yes">
+    <Overload retVal=".">
+      <Param name="xOrder" />
+      <Param name="cOrderBagName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Ordkey" func="yes">
+    <Overload retVal=".">
+      <Param name="cOrderName | nOrder " />
+      <Param name="cOrderBagName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Outerr" func="yes">
+    <Overload retVal=".">
+      <Param name="xExp" />
+      <Param name="... " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Outstd" func="yes">
+    <Overload retVal=".">
+      <Param name="xExp" />
+      <Param name="... " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Padc" func="yes">
+    <Overload retVal=".">
+      <Param name="xVal" />
+      <Param name="nWidth" />
+      <Param name="cFill " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Padl" func="yes">
+    <Overload retVal=".">
+      <Param name="xVal" />
+      <Param name="nWidth" />
+      <Param name="cFill " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Padleft" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nLength" />
+      <Param name="cChar|nChar " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Padr" func="yes">
+    <Overload retVal=".">
+      <Param name="xVal" />
+      <Param name="nWidth" />
+      <Param name="cFill " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Padright" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nLength" />
+      <Param name="cChar|nChar " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Payment" func="yes">
+    <Overload retVal=".">
+      <Param name="nLoan" />
+      <Param name="nInterest" />
+      <Param name="nPeriods " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Periods" func="yes">
+    <Overload retVal=".">
+      <Param name="nLoan" />
+      <Param name="nPayment" />
+      <Param name="nInterest " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Posalpha" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="lMode" />
+      <Param name="nIgnore " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Poschar" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="cCharacter|nCharacter" />
+      <Param name="nPosition " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Posdel" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nStartPosition" />
+      <Param name="nLength " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Posdiff" func="yes">
+    <Overload retVal=".">
+      <Param name="cString1" />
+      <Param name="cString2" />
+      <Param name="nIgnore " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Posequal" func="yes">
+    <Overload retVal=".">
+      <Param name="cString1" />
+      <Param name="cString2" />
+      <Param name="nCompare" />
+      <Param name="nIgnore " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Posins" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cInsert" />
+      <Param name="nPosition " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Poslower" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="lMode" />
+      <Param name="nIgnore " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Posrange" func="yes">
+    <Overload retVal=".">
+      <Param name="cChar1" />
+      <Param name="cChar2" />
+      <Param name="cString" />
+      <Param name="lMode" />
+      <Param name="nIgnore " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Posrepl" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="cReplacement" />
+      <Param name="nStartPosition " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Posupper" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="lMode" />
+      <Param name="nIgnore " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Printready" func="yes">
+    <Overload retVal=".">
+      <Param name="nPrinter " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Procline" func="yes">
+    <Overload retVal=".">
+      <Param name="nLevel " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Procname" func="yes">
+    <Overload retVal=".">
+      <Param name="nLevel " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Pv" func="yes">
+    <Overload retVal=".">
+      <Param name="nPayment" />
+      <Param name="nInterest" />
+      <Param name="nPeriods " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Quarter" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Rangerem" func="yes">
+    <Overload retVal=".">
+      <Param name="cChar1|nChar1" />
+      <Param name="cChar2|nChar2" />
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Rangerepl" func="yes">
+    <Overload retVal=".">
+      <Param name="cChar1|nChar1" />
+      <Param name="cChar2|nChar2" />
+      <Param name="@cString" />
+      <Param name="cReplacementChar|nReplacementChar " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Rat" func="yes">
+    <Overload retVal=".">
+      <Param name="cSearch" />
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Rate" func="yes">
+    <Overload retVal=".">
+      <Param name="nLoan" />
+      <Param name="nPayment" />
+      <Param name="nPeriods " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Rd" func="yes">
+    <Overload retVal=".">
+      <Param name="cDir " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Readvar" func="yes">
+    <Overload retVal=".">
+      <Param name="cVarName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Reccount" func="yes">
+    <Overload retVal=".">
+      <Param name=")* | LastRec(" />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Remall" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cSearch|nSearch " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Remleft" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cSearch|nSearch " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Remright" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cSearch|nSearch " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Replall" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cReplace|nReplace" />
+      <Param name="cSearch|nSearch " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Replicate" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nSize " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Replleft" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cReplace|nReplace" />
+      <Param name="cSearch|nSearch " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Replright" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cReplace|nReplace" />
+      <Param name="cSearch|nSearch " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Resttoken" func="yes">
+    <Overload retVal=".">
+      <Param name="cStaticTokenEnvironment " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Right" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nLen " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Round" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber" />
+      <Param name="nPlace " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Rtod" func="yes">
+    <Overload retVal=".">
+      <Param name="nRadiant " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Rtrim" func="yes">
+    <Overload retVal=".">
+      <Param name="cExpression " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Sayscreen" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nRow" />
+      <Param name="nCol " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Secs" func="yes">
+    <Overload retVal=".">
+      <Param name="cTime " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Select" func="yes">
+    <Overload retVal=".">
+      <Param name="cAlias " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Set" func="yes">
+    <Overload retVal=".">
+      <Param name="nSet " />
+      <Param name="xNewSetting " />
+      <Param name="xOption   " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Setatlike " func="yes">
+    <Overload retVal=".">
+      <Param name="nMode " />
+      <Param name="@cWildcard" />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Setdate" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate" />
+      <Param name="lMode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Setfont" func="yes">
+    <Overload retVal=".">
+      <Param name="cFontString" />
+      <Param name="nFontArea" />
+      <Param name="nOffset" />
+      <Param name="nCounter " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Setkey" func="yes">
+    <Overload retVal=".">
+      <Param name="anKey " />
+      <Param name="bAction " />
+      <Param name="bCondition   " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Setmode" func="yes">
+    <Overload retVal=".">
+      <Param name="nRows" />
+      <Param name="nCols " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Setprec" func="yes">
+    <Overload retVal=".">
+      <Param name="nPrecision " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Settime" func="yes">
+    <Overload retVal=".">
+      <Param name="cTime" />
+      <Param name="lMode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Settypeahead" func="yes">
+    <Overload retVal=".">
+      <Param name="nSize " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Sign" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Sin " func="yes">
+    <Overload retVal=".">
+      <Param name="nRadiant" />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Sinh" func="yes">
+    <Overload retVal=".">
+      <Param name="nArea " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Space" func="yes">
+    <Overload retVal=".">
+      <Param name="nSize " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Sqrt" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Str" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber" />
+      <Param name="nLength" />
+      <Param name="nDecimals " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Strdiff" func="yes">
+    <Overload retVal=".">
+      <Param name="cString1" />
+      <Param name="cString2" />
+      <Param name="nReplacementPenalty" />
+      <Param name="nDeletionPenalty" />
+      <Param name="nInsertionPenalty " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Strformat" func="yes">
+    <Overload retVal=".">
+      <Param name="cMask" />
+      <Param name="cPar1" />
+      <Param name="cParn" />
+      <Param name="..." />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Strswap" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString1" />
+      <Param name="@cString2 " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Strtran" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cLocString" />
+      <Param name="cRepString" />
+      <Param name="nPos" />
+      <Param name="nOccurrences " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Strzero" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber" />
+      <Param name="nLength" />
+      <Param name="nDecimals " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Substr" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nStart" />
+      <Param name="nLen " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tabexpand " func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nTabWidth" />
+      <Param name="cFillChar|nFillChar" />
+      <Param name="cNewLineCharacters" />
+      <Param name="cTabChar|nTabChar" />
+      <Param name="lIgnore141" />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tabpack" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nTabWidth" />
+      <Param name="cFillChar|nFillChar" />
+      <Param name="cNewLineCharacters" />
+      <Param name="cTabChar|nTabChar" />
+      <Param name="lIgnore141 " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tan" func="yes">
+    <Overload retVal=".">
+      <Param name="nRadiant " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tanh" func="yes">
+    <Overload retVal=".">
+      <Param name="nArea " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tbrowsedb" func="yes">
+    <Overload retVal=".">
+      <Param name="nTop" />
+      <Param name="nLeft" />
+      <Param name="nBottom" />
+      <Param name="nRight " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Timevalid" func="yes">
+    <Overload retVal=".">
+      <Param name="cTime " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Token" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="cTokenizer" />
+      <Param name="nTokenCount" />
+      <Param name="nSkipWidth" />
+      <Param name="@cPreTokenSep" />
+      <Param name="@cPostTokenSep " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tokenat" func="yes">
+    <Overload retVal=".">
+      <Param name="lSeparatorPositionBehindToken" />
+      <Param name="nToken" />
+      <Param name="@cTokenEnvironment " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tokenend" func="yes">
+    <Overload retVal=".">
+      <Param name="@cTokenEnvironment " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tokeninit" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="cTokenizer" />
+      <Param name="nSkipWidth" />
+      <Param name="@cTokenEnvironment " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tokenlower" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="cTokenizer" />
+      <Param name="nTokenCount" />
+      <Param name="nSkipWidth " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tokennext" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="nToken" />
+      <Param name="@cTokenEnvironment " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tokennum" func="yes">
+    <Overload retVal=".">
+      <Param name="@cTokenEnvironment " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tokensep" func="yes">
+    <Overload retVal=".">
+      <Param name="lMode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tokenupper" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString" />
+      <Param name="cTokenizer" />
+      <Param name="nTokenCount" />
+      <Param name="nSkipWidth " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Tone" func="yes">
+    <Overload retVal=".">
+      <Param name="nFrequency" />
+      <Param name="nDuration " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Total [to <" func="yes">
+    <Overload retVal=".">
+      <Param name="f" />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Trim" func="yes">
+    <Overload retVal=".">
+      <Param name="cExpression " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Type" func="yes">
+    <Overload retVal=".">
+      <Param name="cExp " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="U2bin" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Untextwin" func="yes">
+    <Overload retVal=".">
+      <Param name="nTopLine" />
+      <Param name="nLeftColumn" />
+      <Param name="nBottomLine" />
+      <Param name="nRightColumn" />
+      <Param name="cReplacementCharacter|nReplacementCharacter" />
+      <Param name="cInitialCharacter|nInitialCharacter" />
+      <Param name="cEndCharacter|nEndCharacter " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Val" func="yes">
+    <Overload retVal=".">
+      <Param name="cNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Valpos" func="yes">
+    <Overload retVal=".">
+      <Param name="cString" />
+      <Param name="nPosition " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Valtype" func="yes">
+    <Overload retVal=".">
+      <Param name="xExp " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Vgapalette" func="yes">
+    <Overload retVal=".">
+      <Param name="cColor|nColor" />
+      <Param name="nRedValue" />
+      <Param name="nGreenValue" />
+      <Param name="nBlueValue " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="W2bin" func="yes">
+    <Overload retVal=".">
+      <Param name="nNumber " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Waitperiod" func="yes">
+    <Overload retVal=".">
+      <Param name="nDelay " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Wapi_getshortpathname" func="yes">
+    <Overload retVal=".">
+      <Param name="cLongPathName" />
+      <Param name="@cShortPathName" />
+      <Param name="nSize " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Win_getopenfilename" func="yes">
+    <Overload retVal=".">
+      <Param name="@nFlags" />
+      <Param name="cTitle" />
+      <Param name="cInitDir" />
+      <Param name="cDefExt" />
+      <Param name="@nFilterIndex" />
+      <Param name="nBufferSize" />
+      <Param name="cDefName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Word" func="yes">
+    <Overload retVal=".">
+      <Param name="nDouble " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Wordone" func="yes">
+    <Overload retVal=".">
+      <Param name="cDoubleCharactersToReduce" />
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Wordonly" func="yes">
+    <Overload retVal=".">
+      <Param name="cThisDoubleCharactersOnly" />
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Wordrem" func="yes">
+    <Overload retVal=".">
+      <Param name="cDeleteThisDoubleCharacters" />
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Wordrepl" func="yes">
+    <Overload retVal=".">
+      <Param name="cDoubleCharacterSearchString" />
+      <Param name="@cString" />
+      <Param name="cDoubleCharacterReplaceString" />
+      <Param name="lMode " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Wordswap" func="yes">
+    <Overload retVal=".">
+      <Param name="@cString " />
+      <Param name="lSwapCharacters " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Wordtochar" func="yes">
+    <Overload retVal=".">
+      <Param name="cDoubleCharacterSearchString" />
+      <Param name="cString" />
+      <Param name="cSingleCharacterReplaceString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Woy" func="yes">
+    <Overload retVal=".">
+      <Param name="dDate" />
+      <Param name="lIso " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="Wvg_picture" func="yes">
+    <Overload retVal=".">
+      <Param name="nTop" />
+      <Param name="nLeft" />
+      <Param name="nBottom" />
+      <Param name="nRight" />
+      <Param name="aPxlOff" />
+      <Param name="nSlot" />
+      <Param name="lDoNotScale " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__atprompt" func="yes">
+    <Overload retVal=".">
+      <Param name="nRow" />
+      <Param name="nCol" />
+      <Param name="cPrompt" />
+      <Param name="xMsg " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__dbcopystruct" func="yes">
+    <Overload retVal=".">
+      <Param name="cFileName" />
+      <Param name="aFieldList " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__dbcopyxstruct" func="yes">
+    <Overload retVal=".">
+      <Param name="cFileName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__dbcreate" func="yes">
+    <Overload retVal=".">
+      <Param name="cFileName" />
+      <Param name="cFileFrom" />
+      <Param name="cRDDName" />
+      <Param name="lNew" />
+      <Param name="cAlias " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__dbcreate" func="yes">
+    <Overload retVal=".">
+      <Param name="cFileName" />
+      <Param name="cFileFrom" />
+      <Param name="cRDDName" />
+      <Param name="lNew" />
+      <Param name="cAlias " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__dbdelim" func="yes">
+    <Overload retVal=".">
+      <Param name="lExport" />
+      <Param name="xcFile" />
+      <Param name="xcDelim" />
+      <Param name="aFields" />
+      <Param name="bFor" />
+      <Param name="bWhile" />
+      <Param name="nNext" />
+      <Param name="nRecord" />
+      <Param name="lRest " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__dbsdf" func="yes">
+    <Overload retVal=".">
+      <Param name="lExport" />
+      <Param name="xcFile" />
+      <Param name="aFields" />
+      <Param name="bFor" />
+      <Param name="bWhile" />
+      <Param name="nNext" />
+      <Param name="nRecord" />
+      <Param name="lRest " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__dbstructfilter" func="yes">
+    <Overload retVal=".">
+      <Param name="aStruct" />
+      <Param name="aFieldList " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__dir" func="yes">
+    <Overload retVal=".">
+      <Param name="cFileMask " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__fledit" func="yes">
+    <Overload retVal=".">
+      <Param name="aStruct" />
+      <Param name="aFieldList " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__fledit" func="yes">
+    <Overload retVal=".">
+      <Param name="aStruct" />
+      <Param name="aFieldList " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__input" func="yes">
+    <Overload retVal=".">
+      <Param name="cMessage " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__menuto" func="yes">
+    <Overload retVal=".">
+      <Param name="bBlock" />
+      <Param name="cVariable " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__mvdbginfo" func="yes">
+    <Overload retVal=".">
+      <Param name="nScope " />
+      <Param name="nPosition " />
+      <Param name="@cVarName  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__mvexist" func="yes">
+    <Overload retVal=".">
+      <Param name="cVarName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__mvget" func="yes">
+    <Overload retVal=".">
+      <Param name="cVarName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__mvget" func="yes">
+    <Overload retVal=".">
+      <Param name="cVarName " />
+      <Param name="xValue " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__mvprivate" func="yes">
+    <Overload retVal=".">
+      <Param name="variable_name " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__mvpublic" func="yes">
+    <Overload retVal=".">
+      <Param name="variable_name " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__mvrelease" func="yes">
+    <Overload retVal=".">
+      <Param name="skeleton" />
+      <Param name="include_exclude_flag " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__mvscope" func="yes">
+    <Overload retVal=".">
+      <Param name="cVarName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__mvxrelease" func="yes">
+    <Overload retVal=".">
+      <Param name="variable_name " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objadddata" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="cDataName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objaddinline" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="cInlineName" />
+      <Param name="bInline " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objaddmethod" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="cMethodName" />
+      <Param name="nFuncPtr " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objdelinline" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="cSymbol " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objdelmethod" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="cDataName " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objdelmethod" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="cSymbol " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objderivedfrom" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="xSuper " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objgetmethodlist" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objgetmsglist" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="lData" />
+      <Param name="nClassType " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objgetvaluelist" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="aExcept " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objhasdata" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="cSymbol " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objhasmethod" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="cSymbol " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objmodinline" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="cInlineName" />
+      <Param name="bInline " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objmodmethod" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="cMethodName" />
+      <Param name="nFuncPtr " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__objsetvaluelist" func="yes">
+    <Overload retVal=".">
+      <Param name="oObject" />
+      <Param name="aData " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__run" func="yes">
+    <Overload retVal=".">
+      <Param name="cCommand " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__setcentury" func="yes">
+    <Overload retVal=".">
+      <Param name="lFlag | cOnOff  " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__setfunction" func="yes">
+    <Overload retVal=".">
+      <Param name="nFunctionKey" />
+      <Param name="cString " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__textsave" func="yes">
+    <Overload retVal=".">
+      <Param name="cFile " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__typefile" func="yes">
+    <Overload retVal=".">
+      <Param name="cFile" />
+      <Param name="lPrint " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="__wait" func="yes">
+    <Overload retVal=".">
+      <Param name="cMessage " />
+    </Overload>
+  </KeyWord>
+  <KeyWord name="ACCEPT" />
+  <KeyWord name="ALIAS" />
+  <KeyWord name="ALL" />
+  <KeyWord name="ALTERNATE" />
+  <KeyWord name="APPEND" />
+  <KeyWord name="AVERAGE" />
+  <KeyWord name="BEGIN" />
+  <KeyWord name="BELL" />
+  <KeyWord name="BLANK" />
+  <KeyWord name="BOTTOM" />
+  <KeyWord name="BOX" />
+  <KeyWord name="BREAK" />
+  <KeyWord name="BRITISH" />
+  <KeyWord name="CANCEL" />
+  <KeyWord name="CASE" />
+  <KeyWord name="CENTURY" />
+  <KeyWord name="CLASS" />
+  <KeyWord name="CLEAR" />
+  <KeyWord name="CLOSE" />
+  <KeyWord name="CLS" />
+  <KeyWord name="COLOR" />
+  <KeyWord name="COMMIT" />
+  <KeyWord name="CONFIRM" />
+  <KeyWord name="CONSOLE" />
+  <KeyWord name="CONTINUE" />
+  <KeyWord name="COPY" />
+  <KeyWord name="COUNT" />
+  <KeyWord name="CREATE" />
+  <KeyWord name="CURSOR" />
+  <KeyWord name="DATABASES" />
+  <KeyWord name="DATE" />
+  <KeyWord name="DECIMALS" />
+  <KeyWord name="DECLARE" />
+  <KeyWord name="DEFAULT" />
+  <KeyWord name="DELETE" />
+  <KeyWord name="DELIMITERS" />
+  <KeyWord name="DEVICE" />
+  <KeyWord name="DIR" />
+  <KeyWord name="DISPLAY" />
+  <KeyWord name="DO" />
+  <KeyWord name="EACH" />
+  <KeyWord name="EJECT" />
+  <KeyWord name="ELSE" />
+  <KeyWord name="ELSEIF" />
+  <KeyWord name="END" />
+  <KeyWord name="ENDCASE" />
+  <KeyWord name="ENDDO" />
+  <KeyWord name="ENDIF" />
+  <KeyWord name="ENDTEXT" />
+  <KeyWord name="EPOCH" />
+  <KeyWord name="ERASE" />
+  <KeyWord name="ERROR" />
+  <KeyWord name="ESCAPE" />
+  <KeyWord name="EXACT" />
+  <KeyWord name="EXCLUSIVE" />
+  <KeyWord name="EXIT" />
+  <KeyWord name="EXPORT" />
+  <KeyWord name="EXTENDED" />
+  <KeyWord name="EXTERNAL" />
+  <KeyWord name="EVENTMASK" />
+  <KeyWord name="FIELD" />
+  <KeyWord name="FILTER" />
+  <KeyWord name="FIND" />
+  <KeyWord name="FIXED" />
+  <KeyWord name="FOR" />
+  <KeyWord name="FORM" />
+  <KeyWord name="FORMAT" />
+  <KeyWord name="FROM" />
+  <KeyWord name="FUNCTION" />
+  <KeyWord name="GET" />
+  <KeyWord name="GETS" />
+  <KeyWord name="GO" />
+  <KeyWord name="GOTO" />
+  <KeyWord name="IF">
+  <KeyWord name="IN" />
+  <KeyWord name="INDEX" />
+  <KeyWord name="INIT" />
+  <KeyWord name="INPUT" />
+  <KeyWord name="INTENSITY" />
+  <KeyWord name="KEY" />
+  <KeyWord name="KEYBOARD" />
+  <KeyWord name="LABEL" />
+  <KeyWord name="LIST" />
+  <KeyWord name="LOCAL" />
+  <KeyWord name="LOCATE" />
+  <KeyWord name="LOOP" />
+  <KeyWord name="MEMORY" />
+  <KeyWord name="MEMVAR" />
+  <KeyWord name="MENU" />
+  <KeyWord name="MESSAGE" />
+  <KeyWord name="METHOD" />
+  <KeyWord name="NEXT" />
+  <KeyWord name="NIL" />
+  <KeyWord name="OFF" />
+  <KeyWord name="ON" />
+  <KeyWord name="ORDER" />
+  <KeyWord name="OTHERWISE" />
+  <KeyWord name="PACK" />
+  <KeyWord name="PARAMETERS" />
+  <KeyWord name="PATH" />
+  <KeyWord name="PICTURE" />
+  <KeyWord name="PRINT" />
+  <KeyWord name="PRINTER" />
+  <KeyWord name="PRIVATE" />
+  <KeyWord name="PROCEDURE" />
+  <KeyWord name="PROMPT" />
+  <KeyWord name="PROTECTED" />
+  <KeyWord name="PUBLIC" />
+  <KeyWord name="QUIT" />
+  <KeyWord name="READ" />
+  <KeyWord name="RECALL" />
+  <KeyWord name="REINDEX" />
+  <KeyWord name="RELATION" />
+  <KeyWord name="RELEASE" />
+  <KeyWord name="RENAME" />
+  <KeyWord name="REPLACE" />
+  <KeyWord name="REPORT" />
+  <KeyWord name="RESTORE" />
+  <KeyWord name="RETURN" />
+  <KeyWord name="RUN" />
+  <KeyWord name="SAVE" />
+  <KeyWord name="SAY" />
+  <KeyWord name="SCOREBOARD" />
+  <KeyWord name="SCREEN" />
+  <KeyWord name="SDF" />
+  <KeyWord name="SEEK" />
+  <KeyWord name="SELF" />
+  <KeyWord name="SEQUENCE" />
+  <KeyWord name="SET" />
+  <KeyWord name="SKIP" />
+  <KeyWord name="SORT" />
+  <KeyWord name="STATIC" />
+  <KeyWord name="STATUS" />
+  <KeyWord name="STORE" />
+  <KeyWord name="STRUCTURE" />
+  <KeyWord name="SUM" />
+  <KeyWord name="TAG" />
+  <KeyWord name="TEXT" />
+  <KeyWord name="THREAD" />
+  <KeyWord name="TO" />
+  <KeyWord name="TOP" />
+  <KeyWord name="TOTAL" />
+  <KeyWord name="TYPE" />
+  <KeyWord name="TYPEAHEAD" />
+  <KeyWord name="UNLOCK" />
+  <KeyWord name="UPDATE" />
+  <KeyWord name="USE" />
+  <KeyWord name="VALID" />
+  <KeyWord name="VAR" />
+  <KeyWord name="WAIT" />
+  <KeyWord name="WHEN" />
+  <KeyWord name="WHILE" />
+  <KeyWord name="WITH" />
+  <KeyWord name="WORD" />
+  <KeyWord name="WRAP" />
+  <KeyWord name="ZAP" />
+
+  <KeyWord name="ANNOUNCE" />
+  <KeyWord name="REQUEST" />
+  <KeyWord name="SOFTSEEK" />
+  <KeyWord name="UNIQUE" />
+
+  <KeyWord name="_SET_CODEPAGE" />
+  <KeyWord name="_SET_DEVICE" />
+  <KeyWord name="_SET_EVENTMASK" />
+  <KeyWord name="_SET_HBOUTLOGINFO" />
+  <KeyWord name="AD_STATE_CLOSED" />
+  <KeyWord name="F_DEC" />
+  <KeyWord name="F_NAME" />
+  <KeyWord name="F_SIZE" />
+  <KeyWord name="F_TYPE" />
+  <KeyWord name="HB_GT_WVG_DEFAULT" />
+  <KeyWord name="HB_GTI_CLOSABLE" />
+  <KeyWord name="HB_GTI_COMPATBUFFER" />
+  <KeyWord name="HB_GTI_FONTNAME" />
+  <KeyWord name="HB_GTI_FONTSIZE" />
+  <KeyWord name="HB_GTI_FONTWEIGHT" />
+  <KeyWord name="HB_GTI_FONTWIDTH" />
+  <KeyWord name="HB_GTI_ICONRES" />
+  <KeyWord name="HB_GTI_INKEYFILTER" />
+  <KeyWord name="HB_GTI_MAXIMIZED" />
+  <KeyWord name="HB_GTI_SELECTCOPY" />
+  <KeyWord name="HB_GTI_SCREENSIZE" />
+  <KeyWord name="HB_GTI_WINTITLE" />
+  <KeyWord name="HB_SYMBOL_UNUSED" />
+  <KeyWord name="INKEY_ALL" />
+  <KeyWord name="INKEY_MOVE" />
+  <KeyWord name="JPA_VERSAO" />
+  <KeyWord name="K_ALT_L" />
+  <KeyWord name="K_ALT_M" />
+  <KeyWord name="K_ALT_Q" />
+  <KeyWord name="K_ALT_S" />
+  <KeyWord name="K_ALT_T" />
+  <KeyWord name="K_BS" />
+  <KeyWord name="K_CTRL_DOWN" />
+  <KeyWord name="K_CTRL_L" />
+  <KeyWord name="K_CTRL_LEFT" />
+  <KeyWord name="K_CTRL_PNDN" />
+  <KeyWord name="K_CTRL_PGUP" />
+  <KeyWord name="K_CTRL_RIGHT" />
+  <KeyWord name="K_CTRL_UP" />
+  <KeyWord name="K_DEL" />
+  <KeyWord name="K_DOWN" />
+  <KeyWord name="K_END" />
+  <KeyWord name="K_ENTER" />
+  <KeyWord name="K_ESC" />
+  <KeyWord name="K_F1" />
+  <KeyWord name="K_F10" />
+  <KeyWord name="K_F5" />
+  <KeyWord name="K_F9" />
+  <KeyWord name="K_HOME" />
+  <KeyWord name="K_INS" />
+  <KeyWord name="K_LBUTTONDOWN" />
+  <KeyWord name="K_PGDN" />
+  <KeyWord name="K_PGUP" />
+  <KeyWord name="K_RIGHT" />
+  <KeyWord name="K_SH_F10" />
+  <KeyWord name="K_SH_F9" />
+  <KeyWord name="K_UP" />
+
+</AutoComplete>

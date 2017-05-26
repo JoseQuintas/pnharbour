@@ -10,6 +10,7 @@ announce
 append
 average
 begin
+bell
 blank
 bottom
 box
@@ -20,7 +21,6 @@ case
 century
 class
 clear
-class
 close
 cls
 color
@@ -38,10 +38,9 @@ decimals
 declare
 default
 delete
-deleted
+delimiters
 device
-dispbegin
-dispend
+dir
 display
 do
 each
@@ -63,10 +62,13 @@ exit
 export
 extended
 external
+eventmask
 field
 filter
 find
+fixed
 for
+form
 format
 from
 function
@@ -74,12 +76,9 @@ get
 gets
 go
 goto
-hb_at
 if
-ifdef
 in
 inherit
-include
 index
 init
 input
@@ -103,7 +102,7 @@ on
 order
 otherwise
 pack
-parameters
+parameteres
 path
 picture
 print
@@ -121,7 +120,7 @@ relation
 release
 rename
 replace
-request
+report
 restore
 return
 run
@@ -135,13 +134,13 @@ self
 sequence
 set
 skip
-softseek
 sort
 static
 status
-step
 store
 structure
+sum
+tag
 text
 thread
 to
@@ -150,6 +149,7 @@ total
 type
 typeahead
 unlock
+update
 use
 valid
 var
@@ -160,7 +160,6 @@ with
 word
 wrap
 zap
-
       </keyword-class>
       <keyword-class name="harbour_functions">
    __accept
@@ -6264,7 +6263,10 @@ zap
    zeroremove
 
       </keyword-class>
-      <keyword-class name="harbour_constants">
+      <keyword-class name="constants">
+request
+softseek
+unique
 _set_codepage
 _set_device
 _set_eventmask
@@ -6323,8 +6325,6 @@ k_sh_f9
 k_up
 database_dbf
 database_hbnetio
-mysql_max_allowed_packet
-mysql_limit_recbackup
 dow_domingo
 dow_segunda
 dow_terca
@@ -6363,10 +6363,10 @@ aux_osapar
 aux_piscst
 aux_pisenq
 aux_ppreco
-aux_progru
 aux_prodep
-aux_prosec
+aux_progru
 aux_proloc
+aux_prosec
 aux_prouni
 aux_quaass
 aux_tabaux
@@ -6382,41 +6382,58 @@ aux_reajus
 aux_tipimo
 aux_tipctr
 hlcaixa_mone_cheque
-hlcaixa_mone_dinheiro
 hlcaixa_mone_cartao
+hlcaixa_mone_dinheiro
 hlcaixa_mone_dolar
 hlcaixa_mone_vale
 hlcaixa_db_entrada
-hlcaixa_db_saida
 hlcaixa_db_extracaixa
-hlcaixa_tipo_recibo
-hlcaixa_tipo_recibo_aluguel
-hlcaixa_tipo_recibo_luz
-hlcaixa_tipo_recibo_agua
-hlcaixa_tipo_recibo_predial
-hlcaixa_tipo_recibo_condominio
-hlcaixa_tipo_recibo_telefone
-hlcaixa_tipo_recibo_contratos
+hlcaixa_db_saida
+hlcaixa_tipo_adiantamento
+hlcaixa_tipo_boleto
+hlcaixa_tipo_boleto_avulso
+hlcaixa_tipo_cheque_deposito
+hlcaixa_tipo_deve
 hlcaixa_tipo_diversos_entrada
+hlcaixa_tipo_extratos
+hlcaixa_tipo_haver
+hlcaixa_tipo_diversos_saida
+hlcaixa_tipo_recibo
+hlcaixa_tipo_recibo_agua
+hlcaixa_tipo_recibo_aluguel
+hlcaixa_tipo_recibo_avulso
+hlcaixa_tipo_recibo_condominio
+hlcaixa_tipo_recibo_contratos
+hlcaixa_tipo_recibo_fianca
+hlcaixa_tipo_recibo_luz
+hlcaixa_tipo_recibo_descdivs
+hlcaixa_tipo_recibo_irrf
+hlcaixa_tipo_recibo_predial
 hlcaixa_tipo_recibo_seguro
 hlcaixa_tipo_recibo_taxalixo
-hlcaixa_tipo_recibo_irrf
-hlcaixa_tipo_recibo_avulso
-hlcaixa_tipo_boleto_avulso
-hlcaixa_tipo_haver
-hlcaixa_tipo_extratos
-hlcaixa_tipo_adiantamento
-hlcaixa_tipo_diversos_saida
-hlcaixa_tipo_deve
-hlcaixa_tipo_cheque_deposito
+hlcaixa_tipo_recibo_telefone
 hlcaixa_tipo_retiradacc
-hlcaixa_tipo_boleto
+jpaversao
+mysql_limit_recbackup
+mysql_max_allowed_packet
+mysql_max_cmdinsert
 recibo10_entrada
 recibo10_saida
-
+search_alias
+search_filter
+search_search
       </keyword-class>
       <keyword-class name="harbour_private">
 ___TROCAR_POR_PESSSOAL___
+      </keyword-class>
+      <keyword-class name="preprocessor">
+#define
+#else
+#endif
+#ifdef
+#include
+#undef
+#ifndef
       </keyword-class>
    </keyword-classes>
    <language name="harbour" title="Harbour" folding="true" foldcomments="true" foldcompact="true" foldpreproc="true">
@@ -6427,7 +6444,7 @@ ___TROCAR_POR_PESSSOAL___
       <use-keywords>
          <keyword key="0" name="Harbour Commands"  class="harbour_commands"/>
          <keyword key="1" name="Harbour Functions" class="harbour_functions"/>
-         <keyword key="2" name="Harbour Constants" class="harbour_constants"/>
+         <keyword key="2" name="Harbour Constants" class="constants"/>
          <keyword key="3" name="Harbour Private"   class="harbour_private"/>
       </use-keywords>
       <use-styles>
@@ -6441,7 +6458,7 @@ ___TROCAR_POR_PESSSOAL___
          <style name="Comment keyword error"     key="6"  class="comment"/>
          <style name="Keyword - Commands"        key="7"  class="keyword"/>
          <style name="keywords 2 - Functions"    key="8"  class="keyword"/>
-         <style name="keywords 3 - Constants"    key="9"  class="keyword"/>
+         <style name="keywords 3 - Constants"    key="9"  class="constants"/>
          <style name="keywords 4 - Private"      key="10" class="keyword"/>
          <style name="Number"                    key="11" class="number"/>
          <style name="String"                    key="12" class="string"/>
