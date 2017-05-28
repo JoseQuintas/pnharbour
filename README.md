@@ -2,7 +2,6 @@
 Programmers Notepad configuration for Harbour
 
 copy harbour.*       to pn\schemes
-copy harbour.api     to pn\schemes
 copy additional*     to pn\ctags
 copy JoseQuintas.xml to pn\presets
 
@@ -13,5 +12,15 @@ Note: ctags file have configuration to field/table but is not activated, you can
 
 enjoy
 
-Note: see image on ctags.png about ctags feature
+Annotation:
 
+harbour.api - Harbour Syntax for functions (Intellisense)
+harbour.schemedef - Harbour color scheme
+harbour.scheme - Harbour color scheme (if not defined on .schemedef)
+usersettings.ini - global settings changed by user
+usersettings.xml - Harbour settings changed by user
+usertools.xml - tools (Compile)
+
+![Screenshot](https://github.com/JoseQuintas/pnharbour/blob/master/ctags.png)
+
+Programmers Notepad Home [PNotepad](http:/pnotepad.org/)
