@@ -12,7 +12,11 @@ Note: ctags file have configuration to field/table but is not activated, you can
 
 enjoy
 
-Annotation:
+![Screenshot](https://github.com/JoseQuintas/pnharbour/blob/master/ctags.png)
+
+Programmers Notepad Home [PNotepad](http://pnotepad.org/)
+
+Annotation (not sure about to need all files):
 
 harbour.api - Harbour Syntax for functions (Intellisense)
 harbour.schemedef - Harbour color scheme
@@ -21,6 +25,3 @@ usersettings.ini - global settings changed by user
 usersettings.xml - Harbour settings changed by user
 usertools.xml - tools (Compile)
 
-![Screenshot](https://github.com/JoseQuintas/pnharbour/blob/master/ctags.png)
-
-Programmers Notepad Home [PNotepad](http://pnotepad.org/)
