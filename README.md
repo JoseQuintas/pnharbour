@@ -23,4 +23,4 @@ usertools.xml - tools (Compile)
 
 ![Screenshot](https://github.com/JoseQuintas/pnharbour/blob/master/ctags.png)
 
-Programmers Notepad Home [PNotepad](http:/pnotepad.org/)
+Programmers Notepad Home [PNotepad](http://pnotepad.org/)
