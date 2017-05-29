@@ -56,7 +56,7 @@ Divide/subdivide Window with different files
 
 ![Screenshote](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepade.png)
 
-Divide/subdivide window with SAME file
+Divide/subdivide window with same file
 
 ![Screenshotf](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepadf.png)
 
@@ -72,6 +72,9 @@ Code folding
 
 ![Screenshoti](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepadi.png)
 
+And many other options
+
+![Screenshotj](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepadj.png)
 
 API setup
 
