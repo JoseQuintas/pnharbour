@@ -12,9 +12,14 @@ Note: ctags file have configuration to field/table but is not activated, you can
 
 enjoy
 
-![Screenshot](https://github.com/JoseQuintas/pnharbour/blob/master/ctags.png)
+![Screenshot1](https://github.com/JoseQuintas/pnharbour/blob/master/ctags.png)
 
 Programmers Notepad Home [PNotepad](http://pnotepad.org/)
+
+![Screenshot2](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad1.png)
+![Screenshot3](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad2.png)
+![Screenshot4](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad3.png)
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad4.png)
 
 Annotation (not sure about to need all files):
 
