@@ -40,6 +40,39 @@ Capture Error Messages
 
 ![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepad6.png)
 
+Harbour help as a tool
+
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepadb.png)
+
+Find in Files
+
+![Screenshotc](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepadc.png)
+
+Edit when Find in Files is open
+
+![Screenshotd](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepadd.png)
+
+Divide/subdivide Window with different files
+
+![Screenshote](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepade.png)
+
+Divide/subdivide window with SAME file
+
+![Screenshotf](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepadf.png)
+
+Encoding options with autodetection(ANSI uses Windows default, no codepage option)
+
+![Screenshotg](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepadg.png)
+
+End of Line format with autodetection
+
+![Screenshoth](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepadh.png)
+
+Code folding
+
+![Screenshoti](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepadi.png)
+
+
 API setup
 
 ![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepad7.png)
@@ -55,10 +88,6 @@ CTags setup 1
 Ctags setup 2
 
 ![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepada.png)
-
-Harbour help as a tool
-
-![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepadb.png)
 
 Annotation (not sure about to need all files):
 
