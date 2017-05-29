@@ -56,6 +56,10 @@ Ctags setup 2
 
 ![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepada.png)
 
+Harbour help as a tool
+
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepadb.png)
+
 Annotation (not sure about to need all files):
 
 harbour.api - Harbour Syntax for functions (Intellisense)
