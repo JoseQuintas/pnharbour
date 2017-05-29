@@ -12,53 +12,53 @@ Note: ctags file have configuration to field/table but is not activated, you can
 
 enjoy
 
-![Screenshot1](https://github.com/JoseQuintas/pnharbour/blob/master/ctags.png)
+![Screenshot1](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepad0.png)
 
 Programmers Notepad Home [PNotepad](http://pnotepad.org/)
 
 Colorized keywords
 
-![Screenshot2](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad1.png)
+![Screenshot2](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepad1.png)
 
 Auto Completation
 
-![Screenshot3](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad2.png)
+![Screenshot3](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepad2.png)
 
 Intellisense
 
-![Screenshot4](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad3.png)
+![Screenshot4](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepad3.png)
 
 CTags Index
 
-![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad4.png)
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepad4.png)
 
 Tools
 
-![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad5.png)
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepad5.png)
 
 Capture Error Messages
 
-![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad6.png)
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepad6.png)
 
 API setup
 
-![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad7.png)
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepad7.png)
 
 Scheme setup
 
-![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad8.png)
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepad8.png)
 
 CTags setup 1
 
-![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad9.png)
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepad9.png)
 
 Ctags setup 2
 
-![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepada.png)
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepada.png)
 
 Harbour help as a tool
 
-![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepadb.png)
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/images/pnotepadb.png)
 
 Annotation (not sure about to need all files):
 
