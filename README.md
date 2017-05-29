@@ -16,10 +16,45 @@ enjoy
 
 Programmers Notepad Home [PNotepad](http://pnotepad.org/)
 
+Colorized keywords
+
 ![Screenshot2](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad1.png)
+
+Auto Completation
+
 ![Screenshot3](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad2.png)
+
+Intellisense
+
 ![Screenshot4](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad3.png)
+
+CTags Index
+
 ![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad4.png)
+
+Tools
+
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad5.png)
+
+Capture Error Messages
+
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad6.png)
+
+API setup
+
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad7.png)
+
+Scheme setup
+
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad8.png)
+
+CTags setup 1
+
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepad9.png)
+
+Ctags setup 2
+
+![Screenshot5](https://github.com/JoseQuintas/pnharbour/blob/master/pnotepada.png)
 
 Annotation (not sure about to need all files):
 
