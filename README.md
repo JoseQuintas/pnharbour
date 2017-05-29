@@ -8,7 +8,7 @@ copy JoseQuintas.xml to pn\presets
 On tools-option-files, set to Harbour .prg, .ch, .hbp, .hbc, .hbm
 To select my color configuration, on tools-option-Styles, select JoseQuintas and click on LOAD button
 
-Note: ctags file have configuration to field/table but is not activated, you can do this. Not sure about need all files.
+Note: ctags file have configuration to field/table but is not activated, you can do this. (Not sure about to be usefull)
 
 enjoy
 
@@ -94,10 +94,19 @@ Ctags setup 2
 
 Annotation (not sure about to need all files):
 
-harbour.api - Harbour Syntax for functions (Intellisense)
+harbour.api - Harbour Syntax for procedure/functions (Intellisense)
+
 harbour.schemedef - Harbour color scheme
+
 harbour.scheme - Harbour color scheme (if not defined on .schemedef)
+
 usersettings.ini - global settings changed by user
+
 usersettings.xml - Harbour settings changed by user
+
 usertools.xml - tools (Compile)
 
+On harbour.api I include ignoreCase="yes", but syntax continues case sensitive.
+
+I create a routine to extract parameters list from PRG source code, but I do not know
+to do the same from C source code, then not all functions are available on harbour.api.
